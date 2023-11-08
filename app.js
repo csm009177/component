@@ -21,8 +21,9 @@ function component(elementNode, attributes, children) {
 
   return elementStr;
 }
+module.exports = component;
 
-let test = component('div', { style: 'color:blue;' }, [
+let test = component('div', { style: 'color:red;' }, [
   component('h1', {}, ['This is Page 1'])
 ]);
 

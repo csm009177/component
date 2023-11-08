@@ -1,4 +1,4 @@
-function component(elementNode, attributes, children) {
+export function component(elementNode, attributes, children) {
   let elementStr = `<${elementNode}`;
 
   for (let key in attributes) {
